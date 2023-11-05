@@ -1,0 +1,81 @@
+/* Reset default styles and set a background image */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Button animations */
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074cc;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.animated-button:hover {
+    background-color: #005aa7;
+    color: #fff;
+}
+
+/* Remove listing dots in Our Services */
+section#services ul {
+    list-style-type: none;
+}
+/* Additional Styles for the top links */
+#top-links {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.top-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#top-links .top-link:hover {
+    color: #0074cc;
+}
+
